@@ -1,0 +1,52 @@
+* {
+font-family: Helvetica, sans-serif;
+background-color: black;
+}
+h1 {
+color: aqua;
+font-size: 2em;
+text-align: center;
+}
+
+h2 {
+color: aqua;
+text-align: center;
+display: block;
+}
+
+body {
+display: block;
+margin: 8px;
+}
+
+table {
+border: 2px solid darkcyan;
+width: 650px;
+margin: auto;
+display: table;
+text-align: start;
+line-height: normal;
+color: violet;
+border-spacing: 2px;
+}
+
+thead {
+display: table-header-group;
+vertical-align: middle;
+}
+
+tbody {
+display: table-row-group;
+vertical-align: middle;
+}
+
+th {
+display: table-cell;
+vertical-align: auto;
+font-weight: bold;
+text-align: center;
+}
+
+.color {
+color: lightgreen;
+}
